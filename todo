@@ -1,0 +1,14 @@
+
+
+pip3.9 install -r requirements.txt
+pip3.9 list | grep opentelemetry
+
+opentelemetry-bootstrap -a install
+
+pip3.9 install flask
+pip3.9 install opentelemetry-distro
+pip3.9 install opentelemetry-instrumentation
+pip3.9 install -Iv protobuf==3.20.1
+pip3.9 install opentelemetry-exporter-otlp
+
+opentelemetry-instrument flask run

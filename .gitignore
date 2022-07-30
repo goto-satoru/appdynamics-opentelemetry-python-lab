@@ -1,0 +1,7 @@
+.env
+env.sh
+
+*.0
+*.tgz
+*.zip
+__pycache__
