@@ -9,7 +9,6 @@ cp dotenv-sample .env
 vi .env
 cp env-sample.sh env.sh
 vi env.sh
-vi env.sh
 ```
 
 set your API key and service.namespace (App name) and service.name (Tier name)
