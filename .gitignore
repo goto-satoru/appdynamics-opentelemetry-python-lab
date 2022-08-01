@@ -1,5 +1,5 @@
 .env
-env.sh
+run_app.sh
 
 *.0
 *.tgz

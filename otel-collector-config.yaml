@@ -38,7 +38,7 @@ exporters:
   otlphttp:
     endpoint: "https://pdx-sls-agent-api.saas.appdynamics.com"
     # set X_API_KEY in .env
-    headers: {"x-api-key": "${X_API_KEY}"}   
+    headers: {"x-api-key": "${X_API_KEY}"}
 
 extensions:
   health_check:
